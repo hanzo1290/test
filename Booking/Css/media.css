@@ -1,0 +1,62 @@
+@media (max-width: 1200px) {
+    .menu {
+      display: none;
+    }
+    .bars {
+      display: block;
+    }
+    .nav li {
+      display: block;
+    }
+    .booking 
+    {
+      flex-direction: column;
+      padding: 30px;
+      width: 100%;
+    }
+  
+   
+  }
+
+  @media (max-width: 900px) {
+    .menu {
+      display: none;
+    }
+    .bars {
+      display: block;
+    }
+    .nav li {
+      display: block;
+    }
+    .booking 
+    {
+      flex-direction: column;
+      padding: 30px;
+      width: 100%;
+    }
+  
+   
+  }
+  
+  
+
+
+@media (max-width: 500px) {
+  .menu {
+    display: none;
+  }
+  .bars {
+    display: block;
+  }
+  .nav li {
+    display: block;
+  }
+  .booking 
+  {
+    flex-direction: column;
+    padding: 30px;
+    width: 100%;
+  }
+
+ 
+}

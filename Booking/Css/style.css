@@ -1,0 +1,132 @@
+*{
+    box-sizing:border-box;
+     margin: 0;
+     padding: 0;
+    font-family: Open Sans;
+    }
+
+.container 
+{
+    background-color: #003b95;
+    color: #fff;
+}
+.banner-info 
+{
+    border: 3px solid #000;
+    width: 85%;
+    margin: auto;
+    padding: 10px 24px;
+}
+.header{
+    /* background: gray; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.header .logo 
+{
+    font-size: 20px;
+    
+    font-weight: bold;
+}
+.menu 
+{
+    display: block;
+}
+ .bars 
+{
+    display: none;
+}
+.container  li
+{
+    display: inline;
+    margin-right: 20px;
+    word-spacing: 10px;
+}
+
+.container a 
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: Open Sans;
+   
+
+}
+/* i 
+{
+    padding-right: 20px;
+    background: #000;
+} */
+
+.nav 
+{padding: 24px 0;}
+.nav li 
+{
+    display: inline;
+}
+
+.content 
+{
+    /* background: green; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.content .info 
+{
+    /* background: darkcyan; */
+    padding: 34px 0;
+    width: 380px;
+    line-height: 35px;
+    /* width: 70%; */
+}
+
+.content button 
+{
+    /* margin-top: 20px; */
+}
+.content .image 
+{
+    /* background: darkgoldenrod; */
+    width: 200px;
+    /* width: 30%; */
+    text-align: center;
+}
+
+.booking 
+{
+    background: orange;
+    width: 590px;
+    margin: auto;
+    margin-top: -30px;
+    border-radius: 5px;
+    
+    padding: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.booking * 
+{
+    height: 50px;
+    border-radius: 5px;
+    
+    
+    
+    
+}
+
+input::placeholder 
+{
+    color:#000;
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 20px;
+}
+input[type=submit]
+{
+    width: 100px;
+}
