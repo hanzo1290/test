@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *
+    {
+      box-sizing: border-box;
+      
+      /* background-color: black; */
+
+    }
+   
+    .outer
+    {
+      /* border: 3px solid black; */
+      width: 400px;
+      height: 400px;
+      background: cyan;
+      padding: 50px;
+      /* position: absolute; */
+      justify-content: center;
+    }
+    .inner
+    { 
+      /* border: 3px solid black; */
+      width: 300px;
+      height: 300px;
+      background:rebeccapurple;
+      padding: 70px;
+    }
+    .innermost
+    {
+      width: 150px;
+      height: 150px;
+      background:blue;
+    }
+    
+    .border1
+    {
+      border: 3px solid transparent;
+      border-top: 33px solid black;
+
+      width: 400px;
+      height: 400px;
+      /* background: cyan; */
+      padding: 50px;
+      border-radius: 50%;
+      /* position: absolute; */
+      /* justify-content: center; */
+      animation:identifier1 3s infinite;
+    }
+    .border2
+    { 
+      border: 3px solid transparent;
+      border-top: 33px solid black;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      /* background:rebeccapurple; */
+      animation:identifier 1s infinite;
+      padding: 70px;
+    }
+    .border3
+    {
+      border: 3px solid transparent;
+      border-top: 33px solid black;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      animation:identifier 1s infinite;
+      /* background:blue; */
+    }
+    .spoty
+    {
+      width: 600px;
+      height: 600px;
+      padding: 100px;
+      border-radius: 50%;
+      background-color: green;
+      position: relative;
+    }
+    /* .anticlock
+  
+    {
+      
+      border: 3px solid transparent;
+      border-top: 23px solid black;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      
+      animation:identifier1 1.5s infinite;
+      padding: 70px;
+      position: absolute;
+    } */
+
+    @keyframes identifier {
+      0%{transform: rotate(0deg);}
+      100%{transform: rotate(360deg);}
+    }
+    @keyframes identifier1 {
+      0%{transform: rotate(0deg);}
+      100%{transform: rotate(-360deg);}
+    }
+
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="outer">
+    <div class="inner">
+      <div class="innermost"></div>
+    </div>
+  </div>
+</div>
+
+<div class="spoty">
+  <div class="border1">
+    <div class="border2">
+      <div class="anticlock"></div>
+      <div class="border3">
+  
+      </div>
+  
+    </div>
+  </div>
+</div>
+
+  
+</body>
+</html>
